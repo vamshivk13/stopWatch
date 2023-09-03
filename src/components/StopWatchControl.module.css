@@ -1,0 +1,60 @@
+.stopWatchControl {
+  display: flex;
+  height: 10%;
+  margin: 3px 7px;
+  gap: 15px;
+  align-items: stretch;
+}
+.stopWatchControl.visible {
+  transform: scale(0.9);
+  transition: transform 1s ease-in-out;
+}
+.stopWatchControl div {
+  flex: 1;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -5px -4px 0 rgb(53, 52, 52);
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: white;
+  background-color: #0a0202;
+}
+
+@media screen and (max-width: 576px) {
+  .stopWatchControl {
+    height: 7%;
+  }
+  .stopWatchControl div {
+    font-size: 1.2rem;
+    border-radius: 15px;
+    box-shadow: -4px -3px 0 rgb(53, 52, 52);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .stopWatchControl {
+    height: 7%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .stopWatchControl {
+    height: 7%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .stopWatchControl {
+    height: 7%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .stopWatchControl {
+    height: 7%;
+  }
+}

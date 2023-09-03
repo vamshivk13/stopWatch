@@ -1,0 +1,38 @@
+.topheader {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.stopWatchContainer {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+.topheader ul {
+  padding: 0;
+  margin: 0;
+}
+.navList {
+  list-style: none;
+  display: flex;
+  width: 200px;
+  /* background-color: #ffca28; */
+}
+.listItem {
+  margin: 0 auto;
+  padding: 5px;
+  font-size: 1.2rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.listItem.active {
+  box-shadow: -3px -2px 2px 0 rgb(65, 64, 64);
+  border-radius: 5px;
+  background-color: #1a0505;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  transform: scale(1.1) translate(5px);
+  transition: transform 1s ease-in-out;
+}
